@@ -1,0 +1,55 @@
+/*CSS document*/
+
+body 
+{
+    font-family: conglomerate;
+}
+
+div.container 
+{
+    max-width: 40em;
+    margin: auto;
+}
+
+figure 
+{
+    border: #EFD19F;
+    margin: 0;
+}
+
+figcaption
+{
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}
+
+img 
+{
+    width: 100%;
+}
+
+ul 
+{
+    display:  inline;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+ul li a
+{
+    color: #27251F;
+    text-decoration: none;
+}
+
+ul li a:hover
+{
+    color: #FD5A1E;
+}
