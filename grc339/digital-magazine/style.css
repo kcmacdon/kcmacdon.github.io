@@ -2,29 +2,24 @@
 
 body
 {
-    background-color: #EFD19F;
+    background-color: #CCCCCC;
 }
 
 section 
 {
-    font-family: optima;
+    font-family: conglomerate;
+    margin-bottom: 0.5em;
 }
 
 article 
 {
-    font-family: optima;
+    font-family: conglomerate;
 }
 
 div.container 
 {
     max-width: 80em;
     margin: auto;
-}
-
-section
-{
-    max-width: 40em;
-    margin: 0 auto 3em;
 }
 
 figure 
@@ -61,7 +56,7 @@ nav ul
 nav ul li
 {
     display: inline;
-    padding: .1em;
+    padding: .3em;
 }
 
 nav ul li a
@@ -84,11 +79,20 @@ a
 h1
 {
     width: 4em;
+    padding-top: 2em;
+    margin-bottom: 1em;
 }
 
 h3
 {
     padding: .5em 0 0 0;
+}
+
+main
+{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(72% + 3em);
 }
 
 @media screen and (min-width: 60em)
@@ -162,4 +166,32 @@ h3
     }
 }
 
+section.personal-info ul li 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select 
+{
+    flex: 4 0 32em;
+    box-sizing: border-box;
+}
+
+section.personal-info ul li label 
+{
+    flex: 1 0 8em;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
 
